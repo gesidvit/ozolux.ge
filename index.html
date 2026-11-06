@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="meta.title">OZOLUX — профессиональное озонирование помещений в Батуми и Кобулети</title>
+  <meta name="description" data-i18n-meta="meta.desc" content="OZOLUX — профессиональное озонирование помещений в Батуми и Кобулети. Уничтожаем плесень, вирусы, бактерии и запахи на молекулярном уровне. Выезд от 200 ₾.">
+  <meta name="theme-color" content="#07243B">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <meta property="og:title" content="OZOLUX — профессиональное озонирование помещений">
+  <meta property="og:description" content="Избавьтесь от плесени, вирусов и запахов навсегда. Батуми · Кобулети.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&family=Noto+Sans+Georgian:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a href="#top" class="logo" aria-label="OZOLUX">
+      <img src="assets/logo.svg" alt="OZOLUX" width="190" height="46">
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="nav">
+      <a href="#services" data-i18n="nav.services">Услуги</a>
+      <a href="#how" data-i18n="nav.how">Как работает</a>
+      <a href="#stages" data-i18n="nav.stages">Этапы</a>
+      <a href="#equipment" data-i18n="nav.equipment">Оборудование</a>
+      <a href="#pricing" data-i18n="nav.pricing">Цены</a>
+      <a href="#contacts" data-i18n="nav.contacts">Контакты</a>
+    </nav>
+
+    <div class="header-cta">
+      <div class="lang-switch" id="langSwitch">
+        <button class="lang-btn" id="langBtn" aria-haspopup="listbox" aria-expanded="false" aria-label="Language">
+          <span class="flag" id="langFlag" aria-hidden="true"></span>
+          <span id="langCur">RU</span>
+          <svg class="chev" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <ul class="lang-menu" id="langMenu" role="listbox">
+          <li role="option" data-lang="ru">Русский</li>
+          <li role="option" data-lang="ka">ქართული</li>
+          <li role="option" data-lang="en">English</li>
+        </ul>
+      </div>
+      <a class="header-phone" data-tel href="#"><span class="dot-live"></span><span data-phone>+995 5XX XXX XXX</span></a>
+      <a href="#order" class="btn btn-primary btn-sm" data-i18n="cta.request">Оставить заявку</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+<!-- ================= HERO ================= -->
+<section class="hero" id="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow"><span class="pulse"></span><span data-i18n="hero.eyebrow">Профессиональное озонирование · Батуми · Кобулети</span></span>
+      <h1 data-i18n="hero.h1">Профессиональное озонирование помещений — избавьтесь от плесени, вирусов и запахов навсегда!</h1>
+      <p class="lead" data-i18n="hero.lead">Мы не просто маскируем неприятные запахи, а полностью уничтожаем вирусы, бактерии и споры плесени на молекулярном уровне.</p>
+      <div class="hero-actions">
+        <a href="#order" class="btn btn-primary btn-lg" data-i18n="hero.cta1">Рассчитать стоимость</a>
+        <a href="#how" class="btn btn-ghost btn-lg">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+          <span data-i18n="hero.cta2">Как это работает</span>
+        </a>
+      </div>
+      <ul class="hero-stats">
+        <li><strong data-i18n="hero.stat1n">100%</strong><span data-i18n="hero.stat1l">уничтожение микрофлоры</span></li>
+        <li><strong data-i18n="hero.stat2n">O₃</strong><span data-i18n="hero.stat2l">молекулярный уровень</span></li>
+        <li><strong data-i18n="hero.stat3n">от 200 ₾</strong><span data-i18n="hero.stat3l">выезд на объект</span></li>
+        <li><strong data-i18n="hero.stat4n">Батуми · Кобулети</strong><span data-i18n="hero.stat4l">зона обслуживания</span></li>
+      </ul>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-blob"></div>
+      <img class="hero-mascot float" src="assets/mascot-hero.svg" alt="OZOLUX" width="340" height="412">
+      <div class="hero-chip chip-1">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 2 4 6v6c0 5 3.4 8.5 8 10 4.6-1.5 8-5 8-10V6l-8-4z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9 12l2 2 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span data-i18n="hero.chip1">Безопасно после проветривания</span>
+      </div>
+      <div class="hero-chip chip-2">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M3 13c4-6 14-6 18 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="14" r="3" fill="currentColor"/></svg>
+        <span data-i18n="hero.chip2">Свежесть, как после грозы</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROBLEMS ================= -->
+<section class="section" id="problems">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker" data-i18n="prob.kicker">Какие проблемы мы решаем</span>
+      <h2 data-i18n="prob.title">Устраняем источник, а не симптомы</h2>
+      <p class="section-sub" data-i18n="prob.sub">Озон добирается туда, куда не достанут спреи и проветривание — и уничтожает причину запаха и заражения.</p>
+    </div>
+    <div class="cards-4">
+      <article class="card problem">
+        <div class="card-ic ic-mold" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26"><path d="M4 20c0-4 3-6 3-9a5 5 0 0 1 10 0c0 3 3 5 3 9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="9" cy="11" r="1.4" fill="currentColor"/><circle cx="14" cy="9" r="1.4" fill="currentColor"/><circle cx="13" cy="14" r="1.4" fill="currentColor"/></svg></div>
+        <h3 data-i18n="prob.c1t">Грибок, плесень и сырость</h3>
+        <p data-i18n="prob.c1d">Устраняем споры плесени и стойкий запах сырости, которые часто возникают из-за высокой влажности прибрежного климата.</p>
+      </article>
+      <article class="card problem">
+        <div class="card-ic ic-smell" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26"><path d="M6 15c-1-3 1-6 1-9M11 15c-1-4 1-7 1-10M16 15c-1-3 1-5 1-8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+        <h3 data-i18n="prob.c2t">Запахи после ремонта и табака</h3>
+        <p data-i18n="prob.c2d">Полностью избавляем помещения от стойких запахов после ремонта, запаха табака и запахов домашних животных.</p>
+      </article>
+      <article class="card problem">
+        <div class="card-ic ic-car" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26"><path d="M3 15l2-6a3 3 0 0 1 3-2h8a3 3 0 0 1 3 2l2 6v4h-3M3 19v-4m0 4h3m12 0h-9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="8" cy="19" r="1.6" fill="currentColor"/><circle cx="16" cy="19" r="1.6" fill="currentColor"/></svg></div>
+        <h3 data-i18n="prob.c3t">Дезодорация автомобилей</h3>
+        <p data-i18n="prob.c3d">Проводим дезодорацию салонов и глубокую очистку автомобильных систем кондиционирования от бактерий.</p>
+      </article>
+      <article class="card problem">
+        <div class="card-ic ic-b2b" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26"><path d="M3 21V9l7-4 7 4v12M3 21h18M8 21v-5h4v5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M17 21V11l4 2v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3 data-i18n="prob.c4t">Бизнесу: отели и аренда</h3>
+        <p data-i18n="prob.c4d">Помогаем риелторам, УК и отелям готовить недвижимость к сдаче — чистота и свежесть повышают лояльность арендаторов.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="section section-tint" id="services">
+  <div class="container">
+    <div class="section-head between">
+      <div>
+        <span class="kicker" data-i18n="srv.kicker">Наши услуги</span>
+        <h2 data-i18n="srv.title">Озонирование для дома, бизнеса и авто</h2>
+        <p class="section-sub" data-i18n="srv.sub">Профессиональная обработка в Батуми и Кобулети: квартиры, офисы, коммерческая недвижимость, автомобили и B2B-подготовка объектов.</p>
+      </div>
+      <a href="#order" class="link-arrow"><span data-i18n="srv.link">Оставить заявку</span>
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+    <div class="cards-3">
+      <article class="service-card">
+        <div class="service-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></div>
+        <h3 data-i18n="srv.c1t">Жилая и коммерческая недвижимость</h3>
+        <p data-i18n="srv.c1d">Квартиры, дома, офисы, подвалы и склады. Полное уничтожение спор плесени, вирусов и запахов в воздухе и труднодоступных местах.</p>
+        <div class="service-price"><span data-i18n="srv.c1p">5–6 ₾</span><span data-i18n="srv.c1u">/ м²</span></div>
+      </article>
+      <article class="service-card">
+        <div class="service-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28"><path d="M7 14c-1-3 1-6 1-9M12 14c-1-4 1-7 1-10M17 14c-1-3 1-5 1-8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><rect x="4" y="15" width="16" height="5" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+        <h3 data-i18n="srv.c2t">Устранение стойких запахов</h3>
+        <p data-i18n="srv.c2d">После ремонта, пожара, табака и домашних животных. Озон разрушает молекулы запаха, а не маскирует их.</p>
+        <div class="service-price"><span data-i18n="srv.c2p">от 200 ₾</span><span data-i18n="srv.c2u">/ выезд</span></div>
+      </article>
+      <article class="service-card">
+        <div class="service-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28"><path d="M3 15l2-6a3 3 0 0 1 3-2h8a3 3 0 0 1 3 2l2 6v4h-3M3 19v-4m3 0h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="8" cy="19" r="1.6" fill="currentColor"/><circle cx="16" cy="19" r="1.6" fill="currentColor"/></svg></div>
+        <h3 data-i18n="srv.c3t">Озонирование автомобиля</h3>
+        <p data-i18n="srv.c3d">Дезодорация салона и антибактериальная очистка системы кондиционирования. Свежий воздух без химии.</p>
+        <div class="service-price"><span data-i18n="srv.c3p">50–100 ₾</span><span data-i18n="srv.c3u">/ авто</span></div>
+      </article>
+      <article class="service-card">
+        <div class="service-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3 data-i18n="srv.c4t">Антиплесень и защита</h3>
+        <p data-i18n="srv.c4d">Механическая и химическая очистка поражённых участков + нанесение антисептических составов против повторного появления грибка.</p>
+        <div class="service-price"><span data-i18n="srv.c4p">по объекту</span></div>
+      </article>
+      <article class="service-card">
+        <div class="service-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28"><rect x="3" y="4" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 9h18M8 4v16" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+        <h3 data-i18n="srv.c5t">Подготовка объектов к сдаче</h3>
+        <p data-i18n="srv.c5d">Для отелей, гостевых домов и апартаментов. Быстрая санация номеров между заселениями — чистота и свежесть для гостей.</p>
+        <div class="service-price"><span data-i18n="srv.c5p">B2B-тариф</span></div>
+      </article>
+      <article class="service-card service-card--cta">
+        <h3 data-i18n="srv.c6t">Не нашли свой случай?</h3>
+        <p data-i18n="srv.c6d">Опишите задачу — подберём обработку и рассчитаем стоимость под ваш объект в Батуми или Кобулети.</p>
+        <a href="#order" class="btn btn-primary btn-sm" data-i18n="srv.c6b">Получить расчёт</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HOW IT WORKS ================= -->
+<section class="section" id="how">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker" data-i18n="how.kicker">Технология</span>
+      <h2 data-i18n="how.title">Как работает озонирование</h2>
+      <p class="section-sub" data-i18n="how.sub">Промышленные озонаторы полностью заполняют закрытое помещение газом, который проникает всюду и уничтожает патогены там, где бессильна обычная уборка.</p>
+    </div>
+    <div class="how-grid">
+      <div class="how-steps">
+        <div class="how-item">
+          <span class="how-num">1</span>
+          <div><h3 data-i18n="how.s1t">Заполнение газом</h3><p data-i18n="how.s1d">Генератор насыщает закрытое помещение озоном, который равномерно распределяется по всему объёму.</p></div>
+        </div>
+        <div class="how-item">
+          <span class="how-num">2</span>
+          <div><h3 data-i18n="how.s2t">Проникновение</h3><p data-i18n="how.s2d">Озон добирается во все труднодоступные места — швы, вентиляцию, обивку, уничтожая споры и вирусы на молекулярном уровне.</p></div>
+        </div>
+        <div class="how-item">
+          <span class="how-num">3</span>
+          <div><h3 data-i18n="how.s3t">Распад до кислорода</h3><p data-i18n="how.s3d">Около часа на проветривание — и газ полностью распадается до обычного кислорода, оставляя запах свежести, как после грозы.</p></div>
+        </div>
+      </div>
+      <aside class="safety-card">
+        <div class="safety-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="30" height="30"><path d="M12 3l9 4v5c0 5-3.8 8.5-9 10-5.2-1.5-9-5-9-10V7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M12 8v5M12 16h.01" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></div>
+        <h3 data-i18n="how.safetyT">Безопасность — наш приоритет</h3>
+        <ul class="safety-list">
+          <li data-i18n="how.safe1">Во время работы генераторов людям и животным находиться в помещении запрещено.</li>
+          <li data-i18n="how.safe2">Живые растения необходимо вынести — выделяемый газ токсичен.</li>
+          <li data-i18n="how.safe3">После обработки требуется ~1 час тщательного проветривания.</li>
+          <li data-i18n="how.safe4">Озон распадается до кислорода — помещение становится полностью безопасным.</li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ================= STAGES ================= -->
+<section class="section section-dark" id="stages">
+  <div class="container">
+    <div class="section-head center">
+      <span class="kicker kicker-light" data-i18n="stg.kicker">Этапы работы</span>
+      <h2 data-i18n="stg.title">Комплексный подход в 5 шагов</h2>
+      <p class="section-sub" data-i18n="stg.sub">Мы не ограничиваемся распылением газа — работаем с источником проблемы от подготовки до финального проветривания.</p>
+    </div>
+    <ol class="timeline">
+      <li class="tl-item"><span class="tl-dot">1</span><h3 data-i18n="stg.s1t">Подготовка</h3><p data-i18n="stg.s1d">Выводим людей и домашних животных, выносим растения из помещения.</p></li>
+      <li class="tl-item"><span class="tl-dot">2</span><h3 data-i18n="stg.s2t">Глубокая очистка</h3><p data-i18n="stg.s2d">Механическая и химическая очистка стен, потолков и межпанельных швов от видимых следов грибка.</p></li>
+      <li class="tl-item"><span class="tl-dot">3</span><h3 data-i18n="stg.s3t">Антисептическая защита</h3><p data-i18n="stg.s3d">Наносим специализированные защитные составы для предотвращения повторного появления плесени.</p></li>
+      <li class="tl-item"><span class="tl-dot">4</span><h3 data-i18n="stg.s4t">Озонирование</h3><p data-i18n="stg.s4d">Заполняем помещение газом для тотального уничтожения спор в воздухе и труднодоступных местах.</p></li>
+      <li class="tl-item"><span class="tl-dot">5</span><h3 data-i18n="stg.s5t">Проветривание</h3><p data-i18n="stg.s5d">Финальный этап: помещение наполняется свежим кислородом и становится полностью безопасным.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ================= EQUIPMENT ================= -->
+<section class="section" id="equipment">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker" data-i18n="eq.kicker">Оборудование</span>
+      <h2 data-i18n="eq.title">Профессиональные озонаторы</h2>
+      <p class="section-sub" data-i18n="eq.sub">Подбираем мощность под объект — от квартиры до крупного гостиничного комплекса.</p>
+    </div>
+    <div class="cards-3">
+      <article class="equip-card highlight">
+        <div class="equip-badge" data-i18n="eq.c1badge">Для влажного климата</div>
+        <h3 data-i18n="eq.c1t">Кварцевые трубки</h3>
+        <p data-i18n="eq.c1d">Применяем озонаторы на кварцевых трубках — они значительно меньше подвержены окислению при высокой влажности, чем открытые керамические пластины.</p>
+      </article>
+      <article class="equip-card">
+        <div class="equip-power">40–60 <small data-i18n="eq.c2unit">г/ч</small></div>
+        <h3 data-i18n="eq.c2t">Для квартир и домов</h3>
+        <p data-i18n="eq.c2d">Аппараты такой мощности быстро и эффективно уничтожают грибок и запахи в жилых помещениях.</p>
+      </article>
+      <article class="equip-card">
+        <div class="equip-power">80–120 <small data-i18n="eq.c3unit">г/ч</small></div>
+        <h3 data-i18n="eq.c3t">Для коммерции</h3>
+        <p data-i18n="eq.c3d">Сверхмощные установки для быстрой санации подвалов, складов и крупных гостиничных комплексов.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BEFORE / AFTER ================= -->
+<section class="section" id="cases">
+  <div class="container">
+    <div class="section-head center">
+      <span class="kicker" data-i18n="ba.kicker">До и после</span>
+      <h2 data-i18n="ba.title">Примеры наших работ</h2>
+      <p class="section-sub" data-i18n="ba.sub">Потяните ползунок, чтобы увидеть результат обработки.</p>
+    </div>
+    <div class="ba-grid">
+      <figure class="ba-item">
+        <div class="ba" data-ba style="--pos:50%">
+          <img class="ba-img ba-after" src="assets/cases/case1-after.svg" alt="После озонирования" loading="lazy">
+          <img class="ba-img ba-before" src="assets/cases/case1-before.svg" alt="До озонирования — плесень" loading="lazy">
+          <span class="ba-tag ba-tag-before" data-i18n="ba.before">До</span>
+          <span class="ba-tag ba-tag-after" data-i18n="ba.after">После</span>
+          <div class="ba-divider" aria-hidden="true"></div>
+          <button class="ba-handle" type="button" role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-label="До и после">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M9 7l-4 5 4 5M15 7l4 5-4 5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+        <figcaption class="ba-cap" data-i18n="ba.cap1">Угол стены у пола</figcaption>
+      </figure>
+
+      <figure class="ba-item">
+        <div class="ba" data-ba style="--pos:50%">
+          <img class="ba-img ba-after" src="assets/cases/case2-after.svg" alt="После озонирования" loading="lazy">
+          <img class="ba-img ba-before" src="assets/cases/case2-before.svg" alt="До озонирования — плесень" loading="lazy">
+          <span class="ba-tag ba-tag-before" data-i18n="ba.before">До</span>
+          <span class="ba-tag ba-tag-after" data-i18n="ba.after">После</span>
+          <div class="ba-divider" aria-hidden="true"></div>
+          <button class="ba-handle" type="button" role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-label="До и после">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M9 7l-4 5 4 5M15 7l4 5-4 5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+        <figcaption class="ba-cap" data-i18n="ba.cap2">Потолочный угол</figcaption>
+      </figure>
+
+      <figure class="ba-item">
+        <div class="ba" data-ba style="--pos:50%">
+          <img class="ba-img ba-after" src="assets/cases/case3-after.svg" alt="После озонирования" loading="lazy">
+          <img class="ba-img ba-before" src="assets/cases/case3-before.svg" alt="До озонирования — плесень" loading="lazy">
+          <span class="ba-tag ba-tag-before" data-i18n="ba.before">До</span>
+          <span class="ba-tag ba-tag-after" data-i18n="ba.after">После</span>
+          <div class="ba-divider" aria-hidden="true"></div>
+          <button class="ba-handle" type="button" role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-label="До и после">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M9 7l-4 5 4 5M15 7l4 5-4 5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+        <figcaption class="ba-cap" data-i18n="ba.cap3">Откос у окна</figcaption>
+      </figure>
+
+      <figure class="ba-item">
+        <div class="ba" data-ba style="--pos:50%">
+          <img class="ba-img ba-after" src="assets/cases/case4-after.svg" alt="После озонирования" loading="lazy">
+          <img class="ba-img ba-before" src="assets/cases/case4-before.svg" alt="До озонирования — плесень" loading="lazy">
+          <span class="ba-tag ba-tag-before" data-i18n="ba.before">До</span>
+          <span class="ba-tag ba-tag-after" data-i18n="ba.after">После</span>
+          <div class="ba-divider" aria-hidden="true"></div>
+          <button class="ba-handle" type="button" role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-label="До и после">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M9 7l-4 5 4 5M15 7l4 5-4 5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+        <figcaption class="ba-cap" data-i18n="ba.cap4">Стена у трубы</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRICING ================= -->
+<section class="section section-tint" id="pricing">
+  <div class="container">
+    <div class="section-head center">
+      <span class="kicker" data-i18n="pr.kicker">Стоимость услуг</span>
+      <h2 data-i18n="pr.title">Прозрачный прайс-лист</h2>
+      <p class="section-sub" data-i18n="pr.sub">Итоговая цена зависит от площади, типа объекта и степени загрязнения. Минимальный выезд на объект — от 200 ₾.</p>
+    </div>
+    <div class="pricing-grid">
+      <article class="price-card featured">
+        <div class="price-badge badge-hit" data-i18n="pr.badgeHit">Хит</div>
+        <img class="price-mascot" src="assets/mascot-hero.svg" alt="" aria-hidden="true" width="92" height="112">
+        <h3 data-i18n="pr.p1t">Жильё</h3>
+        <p class="price-desc" data-i18n="pr.p1d">Квартиры, дома, офисы — комплексная обработка</p>
+        <div class="price-value"><span data-i18n="pr.p1v">5–6 ₾</span> <span data-i18n="pr.p1u">/ м²</span></div>
+        <div class="price-note" data-i18n="pr.p1note">Минимальный заказ от 200 ₾</div>
+        <ul class="price-list">
+          <li data-i18n="pr.p1l1">Глубокая очистка поражённых участков</li>
+          <li data-i18n="pr.p1l2">Антисептическая защита от плесени</li>
+          <li data-i18n="pr.p1l3">Озонирование всего помещения</li>
+          <li data-i18n="pr.p1l4">Финальное проветривание и контроль</li>
+        </ul>
+        <a href="#order" class="btn btn-primary btn-block" data-i18n="pr.p1b">Оставить заявку</a>
+      </article>
+
+      <article class="price-card">
+        <div class="price-badge badge-prem" data-i18n="pr.badgePrem">Премиум</div>
+        <img class="price-mascot" src="assets/mascot-hero.svg" alt="" aria-hidden="true" width="92" height="112">
+        <h3 data-i18n="pr.p2t">Коммерция · B2B</h3>
+        <p class="price-desc" data-i18n="pr.p2d">Отели, склады, подвалы, УК, риелторы, СТО</p>
+        <div class="price-value"><span data-i18n="pr.p2v">Партнёрский</span> <span data-i18n="pr.p2u">тариф</span></div>
+        <div class="price-note" data-i18n="pr.p2note">Абонемент и регулярная подготовка объектов</div>
+        <ul class="price-list">
+          <li data-i18n="pr.p2l1">Сверхмощные установки 80–120 г/ч</li>
+          <li data-i18n="pr.p2l2">Санация номеров между заселениями</li>
+          <li data-i18n="pr.p2l3">Специальные ставки для партнёров</li>
+          <li data-i18n="pr.p2l4">Приоритетный выезд по графику</li>
+        </ul>
+        <a href="#order" class="btn btn-outline btn-block" data-i18n="pr.p2b">Обсудить условия</a>
+      </article>
+
+      <article class="price-card">
+        <img class="price-mascot" src="assets/mascot-hero.svg" alt="" aria-hidden="true" width="92" height="112">
+        <h3 data-i18n="pr.p3t">Авто</h3>
+        <p class="price-desc" data-i18n="pr.p3d">Дезодорация салона и очистка кондиционера</p>
+        <div class="price-value"><span data-i18n="pr.p3v">50–100 ₾</span> <span data-i18n="pr.p3u">/ авто</span></div>
+        <div class="price-note" data-i18n="pr.p3note">Средний чек за процедуру</div>
+        <ul class="price-list">
+          <li data-i18n="pr.p3l1">Устранение запахов табака и животных</li>
+          <li data-i18n="pr.p3l2">Антибактериальная очистка системы климата</li>
+          <li data-i18n="pr.p3l3">Без химии и разводов</li>
+          <li data-i18n="pr.p3l4">Свежий воздух в салоне</li>
+        </ul>
+        <a href="#order" class="btn btn-outline btn-block" data-i18n="pr.p3b">Записаться</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHY US ================= -->
+<section class="section" id="why">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker" data-i18n="why.kicker">Почему OZOLUX</span>
+      <h2 data-i18n="why.title">Чистота, которой можно доверять</h2>
+    </div>
+    <div class="cards-3 why-cards">
+      <div class="why-card"><div class="why-ic"><svg viewBox="0 0 24 24" width="24" height="24"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3 data-i18n="why.c1t">Молекулярное уничтожение</h3><p data-i18n="why.c1d">Убиваем вирусы, бактерии и споры, а не маскируем запах.</p></div>
+      <div class="why-card"><div class="why-ic"><svg viewBox="0 0 24 24" width="24" height="24"><path d="M4 7h16M4 12h16M4 17h10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div><h3 data-i18n="why.c2t">Проф. оборудование</h3><p data-i18n="why.c2d">Озонаторы на кварцевых трубках, устойчивые к влажности.</p></div>
+      <div class="why-card"><div class="why-ic"><svg viewBox="0 0 24 24" width="24" height="24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div><h3 data-i18n="why.c3t">Безопасно после обработки</h3><p data-i18n="why.c3d">Озон распадается до кислорода — жильё безопасно для семьи.</p></div>
+      <div class="why-card"><div class="why-ic"><svg viewBox="0 0 24 24" width="24" height="24"><path d="M12 21s-7-4.5-7-10a7 7 0 0 1 14 0c0 5.5-7 10-7 10z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="11" r="2.4" fill="currentColor"/></svg></div><h3 data-i18n="why.c4t">Батуми и Кобулети</h3><p data-i18n="why.c4d">Выезжаем по всей Аджарии в удобное для вас время.</p></div>
+      <div class="why-card"><div class="why-ic"><svg viewBox="0 0 24 24" width="24" height="24"><path d="M5 13l4 4L19 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3 data-i18n="why.c5t">Гарантия результата</h3><p data-i18n="why.c5d">Работаем с источником проблемы по чёткому регламенту из 5 этапов.</p></div>
+      <div class="why-card"><div class="why-ic"><svg viewBox="0 0 24 24" width="24" height="24"><path d="M3 12h4l2 5 4-12 2 7h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3 data-i18n="why.c6t">Для дома и бизнеса</h3><p data-i18n="why.c6d">Квартиры, авто и крупные коммерческие объекты «под ключ».</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ORDER / CALCULATOR ================= -->
+<section class="section section-order" id="order">
+  <div class="container order-grid">
+    <div class="order-info">
+      <span class="kicker kicker-light" data-i18n="ord.kicker">Заявка и расчёт</span>
+      <h2 data-i18n="ord.title">Рассчитайте стоимость за минуту</h2>
+      <p class="section-sub" data-i18n="ord.sub">Укажите параметры объекта — покажем примерную стоимость и отправим заявку в один клик в WhatsApp или Telegram.</p>
+
+      <div class="calc-card">
+        <div class="calc-row">
+          <label for="calcType" data-i18n="ord.calcType">Тип объекта</label>
+          <select id="calcType">
+            <option value="apartment" data-i18n="ord.optApartment">Квартира / дом</option>
+            <option value="office" data-i18n="ord.optOffice">Офис</option>
+            <option value="commercial" data-i18n="ord.optCommercial">Коммерция / склад</option>
+            <option value="car" data-i18n="ord.optCar">Автомобиль</option>
+          </select>
+        </div>
+        <div class="calc-row" id="areaRow">
+          <label for="calcArea" data-i18n="ord.calcArea">Площадь, м²</label>
+          <input type="number" id="calcArea" min="1" max="5000" step="1" value="60" inputmode="numeric">
+        </div>
+        <div class="calc-row">
+          <label for="calcCity" data-i18n="ord.calcCity">Город</label>
+          <select id="calcCity">
+            <option data-i18n="ord.cityBatumi">Батуми</option>
+            <option data-i18n="ord.cityKobuleti">Кобулети</option>
+            <option data-i18n="ord.cityOther">Другой город Аджарии</option>
+          </select>
+        </div>
+        <div class="calc-result">
+          <span data-i18n="ord.calcResult">Примерная стоимость</span>
+          <strong id="calcOut">360–360 ₾</strong>
+          <small id="calcHint">Площадь × 5–6 ₾. Итог уточняется на объекте.</small>
+        </div>
+      </div>
+    </div>
+
+    <form class="order-form" id="orderForm" novalidate>
+      <h3 data-i18n="ord.formTitle">Оставить заявку</h3>
+      <p class="form-sub" data-i18n="ord.formSub">Заполните форму — и отправьте удобным способом. Мы свяжемся с вами и подтвердим расчёт.</p>
+
+      <div class="field">
+        <label for="fName" data-i18n="ord.lName">Ваше имя</label>
+        <input type="text" id="fName" name="name" data-i18n-ph="ord.phName" placeholder="Например, Георгий" autocomplete="name" required>
+      </div>
+      <div class="field">
+        <label for="fPhone" data-i18n="ord.lPhone">Телефон</label>
+        <input type="tel" id="fPhone" name="phone" placeholder="+995 5XX XXX XXX" autocomplete="tel" required>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="fType" data-i18n="ord.lType">Тип объекта</label>
+          <select id="fType" name="type">
+            <option data-i18n="ord.optApartment">Квартира / дом</option>
+            <option data-i18n="ord.optOffice">Офис</option>
+            <option data-i18n="ord.optCommercial">Коммерция / склад</option>
+            <option data-i18n="ord.optCar">Автомобиль</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="fArea" data-i18n="ord.lArea">Площадь, м²</label>
+          <input type="number" id="fArea" name="area" min="1" placeholder="60" inputmode="numeric">
+        </div>
+      </div>
+      <div class="field">
+        <label for="fCity" data-i18n="ord.lCity">Город</label>
+        <select id="fCity" name="city">
+          <option data-i18n="ord.cityBatumi">Батуми</option>
+          <option data-i18n="ord.cityKobuleti">Кобулети</option>
+          <option data-i18n="ord.cityOther">Другой город Аджарии</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="fComment" data-i18n="ord.lComment">Комментарий</label>
+        <textarea id="fComment" name="comment" rows="3" data-i18n-ph="ord.phComment" placeholder="Опишите задачу: плесень, запах, подготовка к сдаче…"></textarea>
+      </div>
+
+      <p class="form-error" id="formError" data-i18n="ord.err" hidden>Пожалуйста, укажите имя и телефон.</p>
+
+      <div class="form-actions">
+        <button type="button" class="btn btn-wa btn-block" id="sendWa">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.5A10 10 0 1 0 12 2z" fill="currentColor"/><path d="M8.2 7.3c.2-.4.4-.4.6-.4h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2 0 .4-.1.5l-.5.6c-.1.1-.2.3-.1.5.2.4.7 1.2 1.4 1.8.9.8 1.6 1 1.9 1.1.2.1.4 0 .5-.1l.6-.7c.2-.2.3-.2.5-.1l1.8.9c.2.1.4.2.4.3.1.3.1.9-.2 1.4-.3.5-1.3 1.1-1.9 1.1-.6.1-1.2.3-3.9-.8-2.8-1.3-4.5-4.2-4.6-4.4-.2-.2-1.1-1.5-1.1-2.8 0-1.3.7-2 .9-2.2z" fill="#fff"/></svg>
+          <span data-i18n="ord.btnWa">Написать в WhatsApp</span>
+        </button>
+        <button type="button" class="btn btn-tg btn-block" id="sendTg">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M21.9 4.3 18.8 19c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6.6 13 1.8 11.5c-1-.3-1-1 .2-1.5l18.6-7.2c.9-.3 1.6.2 1.3 1.5z" fill="currentColor"/></svg>
+          <span data-i18n="ord.btnTg">Написать в Telegram</span>
+        </button>
+      </div>
+      <p class="form-consent" data-i18n="ord.consent">Нажимая кнопку, вы соглашаетесь на обработку данных для ответа на заявку.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<!-- ================= FOOTER / CONTACTS ================= -->
+<footer class="site-footer" id="contacts">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="assets/logo.svg" alt="OZOLUX" width="180" height="44" class="footer-logo">
+      <p data-i18n="ft.desc">Профессиональное озонирование помещений, авто и коммерческих объектов в Батуми и Кобулети. Уничтожаем плесень, вирусы и запахи на молекулярном уровне.</p>
+      <div class="footer-social">
+        <a data-wa href="#" class="soc soc-wa" aria-label="WhatsApp"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.5A10 10 0 1 0 12 2z" fill="currentColor"/></svg></a>
+        <a data-tg href="#" class="soc soc-tg" aria-label="Telegram"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M21.9 4.3 18.8 19c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6.6 13 1.8 11.5c-1-.3-1-1 .2-1.5l18.6-7.2c.9-.3 1.6.2 1.3 1.5z" fill="currentColor"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="ft.col1">Услуги</h4>
+      <a href="#services" data-i18n="ft.l11">Жильё и коммерция</a>
+      <a href="#services" data-i18n="ft.l12">Устранение запахов</a>
+      <a href="#services" data-i18n="ft.l13">Озонирование авто</a>
+      <a href="#services" data-i18n="ft.l14">B2B-подготовка</a>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="ft.col2">Компания</h4>
+      <a href="#how" data-i18n="ft.l21">Как работает</a>
+      <a href="#stages" data-i18n="ft.l22">Этапы работы</a>
+      <a href="#equipment" data-i18n="ft.l23">Оборудование</a>
+      <a href="#cases" data-i18n="ft.l25">Примеры работ</a>
+      <a href="#pricing" data-i18n="ft.l24">Цены</a>
+    </div>
+    <div class="footer-col footer-contacts">
+      <h4 data-i18n="ft.col3">Контакты</h4>
+      <a data-tel href="#" class="f-contact"><strong data-phone>+995 5XX XXX XXX</strong></a>
+      <a data-email href="#" class="f-contact" data-email-text>info@ozolux.ge</a>
+      <p class="f-area"><span data-i18n="ft.area">Зона обслуживания:</span><br><span data-i18n="ft.areaVal">Батуми · Кобулети · Аджария</span></p>
+      <p class="f-hours" data-i18n="ft.hours">Ежедневно, 09:00–21:00</p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year">2026</span> OZOLUX. <span data-i18n="ft.rights">Все права защищены.</span></span>
+    <span class="footer-note" data-i18n="ft.note">Профессиональное озонирование · Батуми · Кобулети</span>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a data-wa href="#" class="fab-wa" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.5A10 10 0 1 0 12 2z" fill="currentColor"/><path d="M8.2 7.3c.2-.4.4-.4.6-.4h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2 0 .4-.1.5l-.5.6c-.1.1-.2.3-.1.5.2.4.7 1.2 1.4 1.8.9.8 1.6 1 1.9 1.1.2.1.4 0 .5-.1l.6-.7c.2-.2.3-.2.5-.1l1.8.9c.2.1.4.2.4.3.1.3.1.9-.2 1.4-.3.5-1.3 1.1-1.9 1.1-.6.1-1.2.3-3.9-.8-2.8-1.3-4.5-4.2-4.6-4.4-.2-.2-1.1-1.5-1.1-2.8 0-1.3.7-2 .9-2.2z" fill="#fff"/></svg>
+</a>
+
+<script src="i18n.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

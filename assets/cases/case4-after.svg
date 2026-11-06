@@ -1,0 +1,20 @@
+<svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="c4wl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0EEE9"/><stop offset="1" stop-color="#E6E3DC"/></linearGradient>
+    <linearGradient id="c4wr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ECEAE4"/><stop offset="1" stop-color="#E1DDD5"/></linearGradient>
+    <linearGradient id="c4pipe" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FBFAF7"/><stop offset="0.5" stop-color="#ECE8E0"/><stop offset="1" stop-color="#D5CFC3"/></linearGradient>
+    <linearGradient id="c4fl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D8D2C7"/><stop offset="1" stop-color="#CCC5B8"/></linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="#EBE8E2"/>
+  <polygon points="0,0 150,0 150,398 0,398" fill="url(#c4wl)"/>
+  <polygon points="150,0 600,0 600,398 150,398" fill="url(#c4wr)"/>
+  <rect x="146" y="0" width="8" height="398" fill="#000" opacity="0.05"/>
+  <g>
+    <rect x="150" y="206" width="450" height="15" rx="7.5" fill="url(#c4pipe)"/>
+    <rect x="150" y="207" width="450" height="3" rx="1.5" fill="#FFFFFF" opacity="0.6"/>
+    <path d="M186,214 L186,250 Q186,260 196,260 L224,260 Q234,260 234,250 L234,214" fill="none" stroke="url(#c4pipe)" stroke-width="13" stroke-linecap="round"/>
+  </g>
+  <rect x="0" y="384" width="600" height="14" fill="#C9C2B4"/>
+  <rect x="0" y="398" width="600" height="52" fill="url(#c4fl)"/>
+  <g stroke="#B3AB9B" stroke-width="1.3" opacity="0.5"><line x1="0" y1="424" x2="600" y2="424"/><line x1="320" y1="398" x2="320" y2="424"/></g>
+</svg>

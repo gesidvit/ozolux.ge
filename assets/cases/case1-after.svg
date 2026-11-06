@@ -1,0 +1,18 @@
+<svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="c1wl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2ECE2"/><stop offset="1" stop-color="#E8E0D3"/></linearGradient>
+    <linearGradient id="c1wr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E9E1D3"/><stop offset="1" stop-color="#DED4C3"/></linearGradient>
+    <linearGradient id="c1fl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#CBA77C"/><stop offset="1" stop-color="#BE9A6C"/></linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="#EFE8DD"/>
+  <polygon points="0,0 250,0 250,366 0,366" fill="url(#c1wl)"/>
+  <polygon points="250,0 600,0 600,366 250,366" fill="url(#c1wr)"/>
+  <rect x="246" y="0" width="8" height="366" fill="#000" opacity="0.05"/>
+  <rect x="0" y="352" width="600" height="16" fill="#DBCFBB"/>
+  <rect x="0" y="352" width="600" height="3" fill="#EAE0CF"/>
+  <rect x="0" y="366" width="600" height="84" fill="url(#c1fl)"/>
+  <g stroke="#A9865B" stroke-width="1.4" opacity="0.5">
+    <line x1="0" y1="392" x2="600" y2="392"/><line x1="0" y1="418" x2="600" y2="418"/>
+    <line x1="150" y1="366" x2="150" y2="392"/><line x1="430" y1="392" x2="430" y2="418"/><line x1="300" y1="418" x2="300" y2="450"/>
+  </g>
+</svg>

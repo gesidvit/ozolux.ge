@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 340" role="img" aria-label="OZOLUX — супергерой свежего воздуха">
+  <defs>
+    <linearGradient id="cape" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A2E4A"/>
+      <stop offset="1" stop-color="#0E7FD4"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1B8FE3"/>
+      <stop offset="1" stop-color="#0E6CC0"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0.35" cy="0.32" r="0.75">
+      <stop offset="0" stop-color="#EAFBFF"/>
+      <stop offset="0.5" stop-color="#58D8F0"/>
+      <stop offset="1" stop-color="#17A7D6"/>
+    </radialGradient>
+    <radialGradient id="aura" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#19C6E6" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#19C6E6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBD3AE"/>
+      <stop offset="1" stop-color="#F3BE92"/>
+    </linearGradient>
+  </defs>
+
+  <!-- aura -->
+  <circle cx="140" cy="168" r="150" fill="url(#aura)"/>
+
+  <!-- floating molecules / sparkles -->
+  <g opacity="0.9">
+    <g transform="translate(34,70)">
+      <circle cx="0" cy="0" r="6" fill="#19C6E6"/>
+      <circle cx="13" cy="7" r="6" fill="#0E7FD4"/>
+      <circle cx="4" cy="15" r="6" fill="#58D8F0"/>
+    </g>
+    <g transform="translate(236,96)">
+      <circle cx="0" cy="0" r="5" fill="#58D8F0"/>
+      <circle cx="11" cy="6" r="5" fill="#19C6E6"/>
+      <circle cx="3" cy="13" r="5" fill="#0E7FD4"/>
+    </g>
+    <circle cx="250" cy="208" r="4" fill="#19C6E6"/>
+    <circle cx="26" cy="214" r="4" fill="#58D8F0"/>
+    <path d="M214 60 l4 8 8 4 -8 4 -4 8 -4 -8 -8 -4 8 -4 z" fill="#FFFFFF" opacity="0.85"/>
+    <path d="M58 150 l3 6 6 3 -6 3 -3 6 -3 -6 -6 -3 6 -3 z" fill="#FFFFFF" opacity="0.7"/>
+  </g>
+
+  <!-- cape -->
+  <path d="M96 128 C70 150 58 210 70 276 C96 258 110 250 140 252 C132 210 128 160 140 134 Z" fill="url(#cape)"/>
+  <path d="M184 128 C210 150 222 210 210 276 C184 258 170 250 140 252 C148 210 152 160 140 134 Z" fill="url(#cape)" opacity="0.92"/>
+
+  <!-- legs -->
+  <rect x="116" y="232" width="20" height="58" rx="10" fill="#0C3C68"/>
+  <rect x="144" y="232" width="20" height="58" rx="10" fill="#0C3C68"/>
+  <!-- boots -->
+  <path d="M110 286 h30 v14 a8 8 0 0 1 -8 8 h-22 a6 6 0 0 1 -6 -6 z" fill="#19C6E6"/>
+  <path d="M140 286 h30 v16 a6 6 0 0 1 -6 6 h-22 a8 8 0 0 1 -8 -8 z" fill="#19C6E6"/>
+
+  <!-- torso suit -->
+  <path d="M104 140 C104 132 116 126 140 126 C164 126 176 132 176 140 L178 214 C178 228 160 236 140 236 C120 236 102 228 102 214 Z" fill="url(#suit)"/>
+  <!-- belt -->
+  <rect x="104" y="210" width="72" height="16" rx="8" fill="#0A2E4A"/>
+  <circle cx="140" cy="218" r="6" fill="#19C6E6"/>
+
+  <!-- chest emblem -->
+  <path d="M140 150 l22 10 v18 c0 16 -12 24 -22 30 c-10 -6 -22 -14 -22 -30 v-18 z" fill="#07243B"/>
+  <path d="M140 157 l15 7 v12 c0 11 -8 16 -15 20 c-7 -4 -15 -9 -15 -20 v-12 z" fill="#19C6E6"/>
+  <text x="140" y="183" font-family="Montserrat, Arial, sans-serif" font-size="14" font-weight="800" fill="#07243B" text-anchor="middle">O₃</text>
+
+  <!-- left arm (on hip) -->
+  <path d="M104 150 C86 156 80 178 88 198 C94 196 100 194 104 188 C100 176 102 162 108 156 Z" fill="url(#suit)"/>
+  <circle cx="90" cy="198" r="11" fill="#F4F9FF"/>
+
+  <!-- right arm raised with orb -->
+  <path d="M176 150 C196 148 210 128 206 108 C200 108 194 110 190 116 C194 128 190 140 176 146 Z" fill="url(#suit)"/>
+  <circle cx="202" cy="100" r="13" fill="#F4F9FF"/>
+  <circle cx="202" cy="92" r="20" fill="url(#orb)"/>
+  <circle cx="196" cy="86" r="6" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- neck -->
+  <rect x="131" y="116" width="18" height="18" rx="7" fill="#EDB889"/>
+
+  <!-- head -->
+  <circle cx="140" cy="92" r="38" fill="url(#skin)"/>
+  <!-- hair tuft -->
+  <path d="M110 76 C116 54 164 54 170 76 C162 70 150 68 140 68 C130 68 118 70 110 76 Z" fill="#2A3B4A"/>
+  <!-- ears -->
+  <circle cx="103" cy="94" r="7" fill="#EDB889"/>
+  <circle cx="177" cy="94" r="7" fill="#EDB889"/>
+
+  <!-- aqua domino mask -->
+  <path d="M110 86 C120 78 160 78 170 86 C172 96 166 104 156 104 C150 104 146 100 140 100 C134 100 130 104 124 104 C114 104 108 96 110 86 Z" fill="#0E7FD4"/>
+  <ellipse cx="126" cy="92" rx="7" ry="8" fill="#FFFFFF"/>
+  <ellipse cx="154" cy="92" rx="7" ry="8" fill="#FFFFFF"/>
+  <circle cx="127" cy="93" r="3.4" fill="#07243B"/>
+  <circle cx="155" cy="93" r="3.4" fill="#07243B"/>
+
+  <!-- smile -->
+  <path d="M126 112 C133 120 147 120 154 112" fill="none" stroke="#B5663F" stroke-width="3.4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="c3wl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2EDE3"/><stop offset="1" stop-color="#E9E2D5"/></linearGradient>
+    <linearGradient id="c3gl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9AA6AD"/><stop offset="0.5" stop-color="#C2CBD0"/><stop offset="1" stop-color="#8E9BA2"/></linearGradient>
+    <linearGradient id="c3fl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#CBA77C"/><stop offset="1" stop-color="#BE9A6C"/></linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="#EFE8DD"/>
+  <rect x="0" y="0" width="600" height="384" fill="url(#c3wl)"/>
+  <rect x="0" y="0" width="28" height="384" fill="#2E3237"/>
+  <rect x="28" y="0" width="92" height="384" fill="url(#c3gl)"/>
+  <g opacity="0.35" fill="#FFFFFF"><polygon points="40,0 70,0 48,384 30,384"/><polygon points="92,0 104,0 86,384 76,384"/></g>
+  <rect x="120" y="0" width="26" height="384" fill="#32363B"/>
+  <polygon points="146,0 184,0 178,384 146,384" fill="#ECE6DC"/>
+  <rect x="178" y="0" width="7" height="384" fill="#000" opacity="0.06"/>
+  <rect x="0" y="370" width="600" height="14" fill="#DBCFBB"/>
+  <rect x="0" y="384" width="600" height="66" fill="url(#c3fl)"/>
+  <g stroke="#A9865B" stroke-width="1.4" opacity="0.5"><line x1="0" y1="410" x2="600" y2="410"/><line x1="260" y1="384" x2="260" y2="410"/><line x1="450" y1="410" x2="450" y2="450"/></g>
+</svg>

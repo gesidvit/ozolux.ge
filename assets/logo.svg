@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 56" role="img" aria-label="OZOLUX — озонирование">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E7FD4"/>
+      <stop offset="1" stop-color="#19C6E6"/>
+    </linearGradient>
+  </defs>
+  <!-- Molecule mark -->
+  <g transform="translate(4,4)">
+    <circle cx="24" cy="24" r="21" fill="none" stroke="url(#lg)" stroke-width="5"/>
+    <circle cx="15.5" cy="20.5" r="5" fill="#19C6E6"/>
+    <circle cx="32.5" cy="20.5" r="5" fill="#0E7FD4"/>
+    <circle cx="24" cy="33" r="5" fill="#58D8F0"/>
+    <path d="M15.5 20.5 L24 33 L32.5 20.5" fill="none" stroke="#19C6E6" stroke-width="2.4" stroke-linecap="round" opacity="0.7"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="62" y="37" font-family="Montserrat, Arial, sans-serif" font-size="27" font-weight="800" letter-spacing="0.5" fill="#07243B">OZO<tspan fill="#0E7FD4">LUX</tspan></text>
+</svg>
